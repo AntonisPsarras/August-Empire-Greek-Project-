@@ -1,21 +1,43 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Οκταβιανός Αύγουστος - Ψηφιακό Προφίλ (Augustus Digital Profile)
 
-# Run and deploy your AI Studio app
+Αυτό το project δημιουργήθηκε στα πλαίσια σχολικής εργασίας για το μάθημα της Ιστορίας της Α' Λυκείου.
 
-This contains everything you need to run your app locally.
+## 🏛️ Θέμα Εργασίας
+*Ο Αύγουστος, στην εποχή της τεχνητής νοημοσύνης, αξιοποιεί σύγχρονα τεχνολογικά μέσα για να προβάλλει την προσωπικότητα και το έργο του.*
 
-View your app in AI Studio: https://ai.studio/apps/eddc4a4c-2d4f-4202-b686-4013347dbd8b
+## 📜 Περιγραφή
+Η εφαρμογή αποτελεί ένα σύγχρονο, διαδραστικό ψηφιακό "dashboard" (πίνακα ελέγχου) που θα μπορούσε να χρησιμοποιήσει ο Οκταβιανός Αύγουστος αν ζούσε στη σημερινή εποχή της τεχνολογίας και της Τεχνητής Νοημοσύνης. Μέσω αυτού του ιστοτόπου, προβάλλει τα επιτεύγματά του (Pax Romana), την οικονομική και στρατιωτική του δύναμη, καθώς και την έκταση της αυτοκρατορίας του.
 
-## Run Locally
+### Βασικά Χαρακτηριστικά
+* **Διαδραστικός Χάρτης (Leaflet):** Απεικόνιση της Ρωμαϊκής Αυτοκρατορίας (Mare Nostrum) με σημαντικές πόλεις, επαρχίες και ιστορικές πληροφορίες (Πληθυσμοί, Καθεστώς).
+* **Στατιστικά Στοιχεία (Recharts):** Γραφήματα που παρουσιάζουν την οικονομική ανάπτυξη, τα έσοδα από φόρους και τη στρατιωτική ισχύ (Λεγεώνες).
+* **Χρονολόγιο:** Τα σημαντικότερα γεγονότα της ζωής και της πορείας του Αυγούστου.
+* **Σύγχρονος Σχεδιασμός:** UI/UX βασισμένο σε Tailwind CSS και React, με responsive σχεδιασμό για κινητά και υπολογιστές.
 
-**Prerequisites:**  Node.js
+## 💻 Τεχνολογίες που χρησιμοποιήθηκαν
+* [React](https://reactjs.org/) (Vite)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [React Leaflet](https://react-leaflet.js.org/) (Διαδραστικοί Χάρτες)
+* [Recharts](https://recharts.org/) (Γραφήματα)
+* [Lucide React](https://lucide.dev/) (Εικονίδια)
 
+## 🚀 Εγκατάσταση και Εκτέλεση (Τοπικά)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-# August-Empire-Greek-Project-
+1. Κλωνοποιήστε το αποθετήριο:
+   ```bash
+   git clone https://github.com/AntonisPsarras/August-Empire-Greek-Project-.git
+   ```
+2. Εγκαταστήστε τις εξαρτήσεις:
+   ```bash
+   npm install
+   ```
+3. Εκκινήστε τον διακομιστή ανάπτυξης:
+   ```bash
+   npm run dev
+   ```
+
+## 🌍 Ανάπτυξη (Deployment)
+Το project είναι ρυθμισμένο για εύκολο deployment σε πλατφόρμες όπως το [Netlify](https://www.netlify.com/) ή το Vercel.
+
+---
+*Δημιουργήθηκε για εκπαιδευτικούς σκοπούς.*
